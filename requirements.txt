@@ -159,3 +159,5 @@ websockets==17.4
 widgetsnbextension==4.0.16
 wordcloud==1.9.6
 xxhash==4.1.0
+pytesseract
+opencv-python
