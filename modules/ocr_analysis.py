@@ -3,12 +3,15 @@ import pytesseract
 import cv2
 import numpy as np
 from PIL import Image
+import os
+import pytesseract
 
-# Configure Tesseract installation path
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
-
+if os.name == "nt":
+    pytesseract.pytesseract.tesseract_cmd = (
+        r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    )
+else:
+    pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 def extract_text_from_image(image_file):
     """
