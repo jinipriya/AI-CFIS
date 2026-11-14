@@ -20,9 +20,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Model files
-models/distilbert_sentiment/
-*.safetensors
+# Model files managed by Git LFS
 *.bin
 *.pt
 *.pth
