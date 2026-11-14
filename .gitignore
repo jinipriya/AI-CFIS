@@ -1,0 +1,111 @@
+
+# Python environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model files
+models/distilbert_sentiment/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Generated analysis results
+bias_analysis_results.csv
+kmeans_results.csv
+
+# Temporary files
+*.log
+*.tmp
+# Trained model files
+models/
+
+# Git backup
+.git_backup/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary notebook
+Untitled.ipynbdir .streamlit /a
+
+# Processed datasets
+data/processed/
+
+# Git backup
+.git_backup/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary notebook
+Untitled.ipynb
+
+# Python environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model files
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pkl
+
+# Generated datasets
+data/processed/
+bias_analysis_results.csv
+kmeans_results.csv
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Git backup
+.git_backup/
+
+# Temporary files
+*.log
+*.tmp
